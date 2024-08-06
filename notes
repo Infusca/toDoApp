@@ -1,9 +1,0 @@
-CourseCareers Projects (Tech With Tim)
-- Go backend, React front end
-
-- could not get dependencies (dls from github) without using modules
-    -> go mod init todo-backend
-- now can get dependencies:
-    - go get github.com/gorilla/mux
-    - go get github.com/rs/cors
-- now can do 'go run main.go' to run go server

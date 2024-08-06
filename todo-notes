@@ -1,0 +1,25 @@
+CourseCareers Projects (Tech With Tim)
+- Go backend, React front end
+
+
+GO BACKEND
+- could not get dependencies (dls from github) without using modules
+    -> go mod init todo-backend
+- now can get dependencies:
+    - go get github.com/gorilla/mux
+    - go get github.com/rs/cors
+- now can do 'go run main.go' to run go server
+
+- added to github (after creating repo in github)
+    - git init
+    - git add .
+    - git commit -m "..."
+    - git remote add origin https://github.com/infusca/toDoApp.git
+    - git push -u origin master
+
+
+REACT FRONTEND
+- npx create-react-app todo-app-frontend (enter folder) (no caps allowed)
+- cd into app -> src -> components (create folder) -> create toDo.js
+- update App.js to include ToDo component
+- npm start
