@@ -29,3 +29,10 @@ REACT FRONTEND
 - cd into app -> src -> components (create folder) -> create toDo.js
 - update App.js to include ToDo component
 - npm start
+
+
+Using Vercel (frontend) & Heroku (backend) to deploy
+- heroku login
+- heroku create
+- git push heroku master
+- heroku logs --tail (check logs)
