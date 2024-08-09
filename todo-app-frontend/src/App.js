@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 // include todo component (app.js file in components)
-import ToDo from './components/toDo';
+import ToDo from './components/ToDo';
 
 function App() {
   return (

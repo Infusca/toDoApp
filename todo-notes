@@ -17,6 +17,12 @@ GO BACKEND
     - git remote add origin https://github.com/infusca/toDoApp.git
     - git push -u origin master
 
+- created new folder and moved files -> need to initialize new go module
+
+- if issues can try the following
+    - go build --> will check for syntax errors
+    - go clean -modcache -> go build --> will clear and rebuild
+
 
 REACT FRONTEND
 - npx create-react-app todo-app-frontend (enter folder) (no caps allowed)
